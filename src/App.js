@@ -91,7 +91,7 @@ function App() {
                   title: 'VieTicket Inspector App',
                   projectUrl: 'https://github.com/isoamyl50/vieticket-inspector-pwa',
                   description: `A cross-platform ticket inspection Progressive Web Application built with React, designed to make event check-ins quick and efficient.
-                  <div style="display: flex; flex-wrap: wrap; justify-content: space-between; margin: 2rem;">
+                  <div style="display: flex; flex-wrap: wrap; justify-content: space-between; margin: 2rem auto;">
                     <img src="assets/img/inspector/1.png" alt="Login" style="width: 33%; max-width: 100%;">
                     <img src="assets/img/inspector/2.png" alt="Scan to check-in screenshot" style="width: 33%; max-width: 100%;">
                     <img src="assets/img/inspector/3.png" alt="Ticket details screenshot" style="width: 33%; max-width: 100%;">
@@ -109,7 +109,7 @@ function App() {
                   title: 'RP2040 Handwired keypad',
                   projectUrl: 'https://github.com/isoamyl50/qmk_firmware/tree/master/keyboards/handwired/macropad_v2_rp2040/',
                   description: `An 11-key macropad, handwired with a rotary encoder, powered by an RP2040 microcontroller and QMK firmware. Features a Neopixel for backlight effects. The breadboard prototype:
-                                <video controls src="assets/videos/rp2040-keypad.webm" style="max-height: 75vh"></video>
+                                <video controls src="assets/videos/rp2040-keypad.webm" style="max-height: 75vh;"></video>
                   `
                 }
               ]
