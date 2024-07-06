@@ -19,8 +19,15 @@ function App() {
         {
           type: 'text',
           title: 'About me',
-          content: `Hello, World! I am an undergraduate computer science student at FPT University. <br />
-                    // TODO: Make this longer
+          content: `  <p>I am an undergraduate Computer Science student at FPT University. 
+                      From a very young age, I have been enthusiastic about machines and technology, 
+                      and my passion for computers has driven me to constantly learn and innovate. 
+                      I enjoy exploring the latest advancements in technology, 
+                      and I love sharing my knowledge by helping fellow students with programming-related coursework.</p>
+                      <p>My goal is to utilize my technical skills to improve everyday life for myself and other people through practical solutions.</p>
+                      <p>In my free time, I enjoy tinkering with electronics, participating in coding challenges, 
+                      and contributing to open-source projects. I also love reading tech blogs.</p>
+
           `,
           icon: 'usertie'
         },
@@ -57,7 +64,7 @@ function App() {
               companyMeta: 'a group of 5 students',
               description: `This project is an online event ticketing system enabling users to purchase tickets for various events and allowing organizers to create and manage events, including generating seating plans for seat selection.`,
               datesBetween: 'May 2024 - Present',
-              descriptionTags: ['Spring Boot', 'Java', 'MySQL', 'Progressive Web App']
+              descriptionTags: ['Spring Framework', 'Java', 'MySQL', 'Progressive Web App']
             }
           ]
         },
@@ -79,18 +86,21 @@ function App() {
                                     Some of my responsibilities in this project:
                                   </p>
                                   <ul>
-                                    <li>- Collaborating with team members is essential to establish and fulfill project requirements.</li>
+                                    <li>- Collaborating with team members to establish and fulfill project requirements.</li>
                                     <li>- Engineered and implemented a robust ticket purchasing system, featuring seamless integration with VNPay API for secure transactions, real-time seat status updates for accurate booking and automated generation and email delivery of electronic tickets.</li>
                                     <li>- Developed a progressive web application (PWA) for streamlined QR code ticket scanning and efficient attendee check-in.</li>
                                     <li>- Implemented a comprehensive email service to facilitate targeted communication with users throughout their event experience.</li>
                                     <li>- Deployed the project to Google App Engine, leveraging Cloudflare's reverse proxy for enhanced security and performance.</li>
                                   </ul>
+                                  <div style="display: flex; flex-wrap: wrap; justify-content: center; align-items: center; margin: 2rem auto;"> 
+                                    <img src="assets/img/vieticket-main/view-event-details.png" alt="VieTicket Platform Screenshot" style="max-width: 100%;">
+                                  </div>
                                 </div><br />`
                 },
                 {
                   title: 'VieTicket Inspector App',
                   projectUrl: 'https://github.com/isoamyl50/vieticket-inspector-pwa',
-                  description: `A cross-platform ticket inspection Progressive Web Application built with React, designed to make event check-ins quick and efficient.
+                  description: `A simple, cross-platform ticket inspection web app built with React, designed to make event check-ins quick and efficient.
                   <div style="display: flex; flex-wrap: wrap; justify-content: space-between; margin: 2rem auto;">
                     <img src="assets/img/inspector/1.png" alt="Login" style="width: 33%; max-width: 100%;">
                     <img src="assets/img/inspector/2.png" alt="Scan to check-in screenshot" style="width: 33%; max-width: 100%;">
@@ -108,7 +118,7 @@ function App() {
                 {
                   title: 'RP2040 Handwired keypad',
                   projectUrl: 'https://github.com/isoamyl50/qmk_firmware/tree/master/keyboards/handwired/macropad_v2_rp2040/',
-                  description: `An 11-key macropad, handwired with a rotary encoder, powered by an RP2040 microcontroller and QMK firmware. Features a Neopixel for backlight effects. The breadboard prototype:
+                  description: `<p>An 11-key macropad, handwired with a rotary encoder, powered by an RP2040 microcontroller and QMK firmware. Features a Neopixel for backlight effects. Here is the video of the breadboard prototype: <p><br />
                                 <video controls src="assets/videos/rp2040-keypad.webm" style="max-height: 75vh;"></video>
                   `
                 }
@@ -132,7 +142,7 @@ function App() {
             },
             {
               title: 'Backend Development',
-              authority: 'Spring Boot, MySQL (and other SQL dialects), RESTful APIs'
+              authority: 'Spring Framework, MySQL (and other SQL dialects), RESTful APIs'
             },
             {
               title: 'Hardware Programming',
@@ -178,6 +188,7 @@ function App() {
               title: 'Certificate of Participation',
               authority: 'chongluadao.vn',
               authorityWebSite: 'https://chongluadao.vn',
+              authorityMeta: 'a cybersecurity organisation',
               rightSide: '2023'
             },
             {
