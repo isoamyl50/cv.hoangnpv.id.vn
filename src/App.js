@@ -79,8 +79,8 @@ function App() {
               description: ' An online event ticketing platform.',
               items: [
                 {
-                  title: 'The VieTicket Platform',
-                  projectUrl: 'https://www.vieticket.io.vn',
+                  title: 'The VieTicket Platform (https://www.vieticket.io.vn/)',
+                  projectUrl: 'https://www.vieticket.io.vn/',
                   description: `<div>
                                   <p>
                                     Some of my responsibilities in this project:
@@ -98,14 +98,16 @@ function App() {
                                 </div><br />`
                 },
                 {
-                  title: 'VieTicket Inspector App',
-                  projectUrl: 'https://github.com/isoamyl50/vieticket-inspector-pwa',
+                  title: 'VieTicket Inspector App (https://inspect.vieticket.io.vn/)',
+                  projectUrl: 'https://inspect.vieticket.io.vn/',
                   description: `A simple, cross-platform ticket inspection web app built with React, designed to make event check-ins quick and efficient.
                   <div style="display: flex; flex-wrap: wrap; justify-content: space-between; margin: 2rem auto;">
                     <img src="assets/img/inspector/1.png" alt="Login" style="width: 33%; max-width: 100%;">
                     <img src="assets/img/inspector/2.png" alt="Scan to check-in screenshot" style="width: 33%; max-width: 100%;">
                     <img src="assets/img/inspector/3.png" alt="Ticket details screenshot" style="width: 33%; max-width: 100%;">
                   </div><br />
+                  <p>GitHub repository of the project: <a href='https://github.com/isoamyl50/vieticket-inspector-pwa/' target='_blank'>https://github.com/isoamyl50/vieticket-inspector-pwa/</a></p>
+                  <br />
                   `
                 }
               ]
@@ -118,8 +120,11 @@ function App() {
                 {
                   title: 'RP2040 Handwired keypad',
                   projectUrl: 'https://github.com/isoamyl50/qmk_firmware/tree/master/keyboards/handwired/macropad_v2_rp2040/',
-                  description: `<p>An 11-key macropad, handwired with a rotary encoder, powered by an RP2040 microcontroller and QMK firmware. Features a Neopixel for backlight effects. Here is the video of the breadboard prototype: <p><br />
-                                <video controls src="assets/videos/rp2040-keypad.webm" style="max-height: 75vh;"></video>
+                  description: `<p>An 11-key macropad, handwired with a rotary encoder, powered by an RP2040 microcontroller and a customised QMK firmware that I written myself. Features a Neopixel for backlight effects. Here is the video of the breadboard prototype: <p><br />
+                                <div style="display: flex; justify-content: center; align-items: center;">
+                                  <video controls src="assets/videos/rp2040-keypad.webm" style="max-height: 75vh;"></video>
+                                </div>
+                                <p>Link to the firmware of the project: <a href='https://github.com/isoamyl50/qmk_firmware/tree/master/keyboards/handwired/macropad_v2_rp2040/' target='_blank'>https://github.com/isoamyl50/qmk_firmware/tree/master/keyboards/handwired/macropad_v2_rp2040/</a></p>
                   `
                 }
               ]
