@@ -120,7 +120,7 @@ function App() {
                 {
                   title: 'RP2040 Handwired keypad',
                   projectUrl: 'https://github.com/isoamyl50/qmk_firmware/tree/master/keyboards/handwired/macropad_v2_rp2040/',
-                  description: `<p>An 11-key macropad, handwired with a rotary encoder, powered by an RP2040 microcontroller and a customised QMK firmware that I written myself. Features a Neopixel for backlight effects. Here is the video of the breadboard prototype: <p><br />
+                  description: `<p>An 11-key macropad, handwired with a rotary encoder, powered by an RP2040 microcontroller and a customised QMK firmware that was written by myself. Features a Neopixel for backlight effects. Here is the video of the breadboard prototype: <p><br />
                                 <div style="display: flex; justify-content: center; align-items: center;">
                                   <video controls src="assets/videos/rp2040-keypad.webm" style="max-height: 75vh;"></video>
                                 </div>
