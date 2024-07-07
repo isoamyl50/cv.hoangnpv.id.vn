@@ -106,7 +106,7 @@ function App() {
                     <img src="assets/img/inspector/2.png" alt="Scan to check-in screenshot" style="width: 33%; max-width: 100%;">
                     <img src="assets/img/inspector/3.png" alt="Ticket details screenshot" style="width: 33%; max-width: 100%;">
                   </div><br />
-                  <p>GitHub repository of the project: <a href='https://github.com/isoamyl50/vieticket-inspector-pwa/' target='_blank'>https://github.com/isoamyl50/vieticket-inspector-pwa/</a></p>
+                  <p>GitHub repository of the app: <a href='https://github.com/isoamyl50/vieticket-inspector-pwa/' target='_blank'>https://github.com/isoamyl50/vieticket-inspector-pwa/</a></p>
                   <br />
                   `
                 }
@@ -139,23 +139,23 @@ function App() {
           items: [
             {
               title: 'Group Working and Communication',
-              authority: 'Active listening, Positive Attitude, Providing and Receiving Feedback'
+              authority: 'Active listening, Positive Attitude, Providing & Receiving Feedback'
             },
             {
               title: 'Frontend Development',
-              authority: 'React, HTML, CSS, JavaScript'
+              authority: 'React, HTML, CSS, JavaScript, Bootstrap'
             },
             {
               title: 'Backend Development',
-              authority: 'Spring Framework, MySQL (and other SQL dialects), RESTful APIs'
+              authority: 'Spring Framework, MySQL (& other SQL dialects), RESTful APIs'
             },
             {
               title: 'Hardware Programming',
-              authority: 'Computer Architecture, C Programming, tinkering with microcontrollers'
+              authority: 'Computer Architecture, C, Microcontrollers, Electronics'
             },
             {
               title: 'Others',
-              authority: 'Computer Networking, Git, GNU/Linux'
+              authority: 'Networking, Security, Git, GNU/Linux, Shell & Python scripting'
             }
           ]
         },
